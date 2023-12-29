@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background: url('image/body-alcohol.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.body__body {
+    margin: 0 auto;
+    max-width: 1280px;
+    min-height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+}
+
+.form__logo {
+    font-size: 60px;
+    color: antiquewhite;
+}
+
+.form__menu-logo {
+    width: 60px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+
+}
+
+.form__entrance-logo {
+    width: 60px;
+}
+
+.form__menu {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a1 {
+    background: url('image/dr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40px;
+    transition: font-size 0.2s;
+    font-family: cursive;
+    border-radius: 5px;
+    color: antiquewhite;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    box-shadow: 8px 3px rgba(255, 255, 255, 0.568);
+    margin: 0 10px;
+}
+
+a:hover {
+    font-size: 30px;
+}
+
+.main {
+
+    width: 100%;
+    min-height: 769px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu__alcohol {
+
+    overflow: auto;
+    min-width: 390px;
+    max-width: 1280px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu__alcohol::-webkit-scrollbar {
+    width: 0;
+}
+
+.alcohol {
+    margin: 10px 0;
+    width: 150px;
+}
+
+.alcohol-cont {
+    text-align: center;
+    background: url(image/pizza-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 370px;
+    height: 700px;
+    margin-bottom: 20px;
+}
+
+.alcohol__desc {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 244px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0 0 0;
+    width: 100%;
+    height: 60px;
+}
+
+.price__button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    background: url('image/dr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+}
+
+h1 {
+    margin: 0;
+
+}
+
+h2 {
+    margin: 0;
+    color: antiquewhite;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+    font-size: 45px;
+}
+
+h3 {
+    margin: 0;
+    color: antiquewhite;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+    font-size: 40px;
+
+}
+
+p {
+    margin: 0;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 0 10px;
+    width: 100%;
+    min-height: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.651);
+    font-size: 20px;
+}
